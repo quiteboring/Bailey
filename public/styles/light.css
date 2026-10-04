@@ -1,0 +1,51 @@
+:root[data-theme="light"] {
+  color-scheme: light;
+  --chrome: #f0f0f4;
+  --tabbar: #e3e0e6;
+  --field: #ffffff;
+  --view: #ffffff;
+  --text: #15141a;
+  --hover-soft: #d8d5db;
+  --hover-strong: #e0dee3;
+  --ring: #cfccd3;
+  --error: #c50042;
+}
+
+:root[data-theme="light"] body {
+  background: #f0f0f4;
+  color: #15141a;
+}
+
+:root[data-theme="light"] input {
+  background: #ffffff;
+  color: #15141a;
+  box-shadow: 0 0 0 1px #cfccd3;
+}
+
+:root[data-theme="light"] #engine-select {
+  background: #ffffff;
+  box-shadow: 0 0 0 1px #cfccd3;
+}
+
+:root[data-theme="light"] h2,
+:root[data-theme="light"] .settings-page p {
+  color: #5b5b66;
+}
+
+:root[data-theme="light"] .settings-page a {
+  background: #ffffff;
+  color: #15141a;
+  box-shadow: 0 0 0 1px #cfccd3;
+}
+
+:root[data-theme="light"] .theme-row button {
+  background: #ffffff;
+  color: #15141a;
+  box-shadow: 0 0 0 1px #cfccd3;
+}
+
+:root[data-theme="light"] #home-settings {
+  background: #ffffff;
+  color: #5b5b66;
+  box-shadow: 0 0 0 1px #cfccd3;
+}

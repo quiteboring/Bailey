@@ -1,0 +1,27 @@
+{
+  "name": "bailey",
+  "version": "1.0.0",
+  "license": "Unlicense",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "lint": "eslint src/ public/",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@mercuryworkshop/bare-mux": "^2.1.9",
+    "@mercuryworkshop/libcurl-transport": "^1.5.2",
+    "@mercuryworkshop/scramjet": "^1.1.0",
+    "@mercuryworkshop/wisp-js": "^0.4.1",
+    "express": "^4.21.2",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.18.0",
+    "eslint": "^9.18.0",
+    "globals": "^16.0.0",
+    "prettier": "^3.4.0"
+  }
+}

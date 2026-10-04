@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  background: #2b2a33;
+  color: #fbfbfe;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+h1 span {
+  color: var(--accent);
+}
+
+form {
+  width: min(480px, 80vw);
+}
+
+input {
+  width: 100%;
+  border: 0;
+  border-radius: 20px;
+  background: #1c1b22;
+  color: #fbfbfe;
+  padding: 12px 20px;
+  font: inherit;
+  font-size: 15px;
+  box-shadow: 0 0 0 1px #52525e;
+}
+
+input:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+  box-shadow: none;
+}
+#home-settings {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 50%;
+  background: #1c1b22;
+  color: #b1b1bd;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #52525e;
+}
+#home-settings:hover {
+  color: #fbfbfe;
+  background: #34333e;
+}
+#home-settings .icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+}

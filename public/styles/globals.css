@@ -1,0 +1,24 @@
+:root {
+  color-scheme: dark;
+  --chrome: #2b2a33;
+  --tabbar: #1c1b22;
+  --field: #1c1b22;
+  --view: #1c1b22;
+  --text: #fbfbfe;
+  --hover-soft: #34333e;
+  --hover-strong: #43434f;
+  --ring: #52525e;
+  --error: #ff9aa2;
+  --accent: #ff7139;
+  --on-accent: #1c1b22;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}
+
+::-moz-selection {
+  background: var(--accent);
+  color: var(--on-accent);
+}

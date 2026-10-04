@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="/styles/globals.css" />
+    <link rel="stylesheet" href="/styles/home.css" />
+    <link rel="stylesheet" href="/styles/settings.css" />
+    <link rel="stylesheet" href="/styles/light.css" />
+    <link rel="icon" type="image/png" href="/icons/favicon.png" />
+  </head>
+  <body class="settings-page">
+    <main>
+      <h1>Ba<span>il</span>ey settings</h1>
+
+      <section>
+        <h2>Search engine</h2>
+        <p>Used when what you type isn't an address.</p>
+        <div><select id="engine-select"></select></div>
+      </section>
+
+      <section>
+        <h2>Theme</h2>
+        <div class="theme-row" id="theme-row">
+          <button data-theme-value="dark">Dark</button>
+          <button data-theme-value="light">Light</button>
+        </div>
+      </section>
+
+      <button id="reset-settings">Reset everything to defaults</button>
+    </main>
+    <script type="module" src="/scripts/pages/settings.js"></script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+main {
+  width: min(560px, 92vw);
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.settings-page {
+  justify-content: flex-start;
+  padding: 56px 20px;
+}
+
+.settings-page h1 {
+  font-size: 32px;
+}
+
+.settings-page h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: #b1b1bd;
+  margin-bottom: 12px;
+}
+
+.settings-page p {
+  color: #b1b1bd;
+  margin-bottom: 12px;
+}
+
+#engine-select {
+  width: 100%;
+  border: 0;
+  border-radius: 12px;
+  background: #1c1b22;
+  color: #fbfbfe;
+  padding: 10px 14px;
+  font: inherit;
+  box-shadow: 0 0 0 1px #52525e;
+  cursor: pointer;
+}
+
+.theme-row {
+  display: flex;
+  gap: 8px;
+}
+
+.theme-row button {
+  border: 0;
+  border-radius: 16px;
+  background: #1c1b22;
+  color: #fbfbfe;
+  padding: 8px 20px;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 0 0 1px #52525e;
+}
+
+.theme-row button[aria-pressed="true"] {
+  outline: 2px solid var(--accent);
+  outline-offset: -1px;
+  box-shadow: none;
+}
+
+#reset-settings {
+  align-self: flex-start;
+  border: 0;
+  background: transparent;
+  color: #ff9aa2;
+  font: inherit;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+#reset-settings:hover {
+  text-decoration: underline;
+}
